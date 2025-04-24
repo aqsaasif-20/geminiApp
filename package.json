@@ -1,0 +1,21 @@
+{
+  "name": "gemini_api",
+  "version": "1.0.0",
+  "description": "Node.js with Gemini-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Aqsa Asif",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}

@@ -2,8 +2,10 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const cors = require("cors");
 
 app.use(bodyParser.json());
+app.use(cors());
 
 // Initialize Gemini API client with your API key
 const genAI = new GoogleGenerativeAI("AIzaSyBpzD-l5kQ7LxeMyyixWZTs39Jgx9nzPnQ");
